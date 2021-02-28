@@ -21,7 +21,7 @@ describe("Youtube", () => {
       cy.visit("https://www.youtube.com/");
       cy.wait(2000);
       cy.contains('Notícias').click();
-      cy.contains('Ao vivo agora - Jornalismo').click();
+      cy.contains('Principais notícias').click();
       cy.contains('REPRODUZIR TUDO').click();
       cy.wait(2000);
       cy.get('#search-form > #container').type("Automation Tests");
