@@ -1,0 +1,20 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "automation using cypress with Youtube in web",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automation",
+    "youtube"
+  ],
+  "author": "Assiria Menezes",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^6.5.0"
+  }
+}
